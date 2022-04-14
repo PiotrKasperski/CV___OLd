@@ -1,0 +1,32 @@
+{
+  "name": "cv",
+  "description": "My CV written in TypeScript without any frameworks (but i can use well known libraries like RxJs or similar). I start it her so you can watch how my knowledge grown.",
+  "version": "0.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrKasperski/CV.git"
+  },
+  "author": "Piotr Kasperski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PiotrKasperski/CV/issues"
+  },
+  "homepage": "https://github.com/PiotrKasperski/CV#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
